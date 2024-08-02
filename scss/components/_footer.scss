@@ -1,0 +1,21 @@
+footer{
+    height: 75px;
+    margin-top: 130px;
+    margin-bottom: 0;
+    background-color: $color-principal;
+    @include flex (flex, space-between, center);
+    flex-wrap: wrap;
+
+    h2
+    {color: $color-secundario;
+    padding-left: 15px;}
+
+    ul li
+    {display: flex;
+    justify-content: space-around;}
+
+    img
+    {padding-right: 15px;
+    width: 50px;
+    height: 50px;}
+    }

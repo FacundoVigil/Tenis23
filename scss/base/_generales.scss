@@ -1,0 +1,32 @@
+/*----FONTS----*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*-----RESET-----*/
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;}
+
+    body{ font-family: "Josefin Sans", sans-serif; }
+
+
+
+/*-----NAV-----*/
+    .menu {background-color: olivedrab !important;} 
+
+.nav-item {font-size: 20px;
+    display: flex;
+    text-align: center;}
+
+//! VARIABLES
+
+$color-principal :olivedrab;
+$color-secundario :white;
+$color-terciario :black;
+
+//! MIXINS
+
+@mixin flex ($flex, $justify, $aling) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

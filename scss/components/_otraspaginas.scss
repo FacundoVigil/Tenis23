@@ -1,0 +1,28 @@
+.cosas{
+    @include flex (flex, space-around, center);
+    flex-wrap: wrap;
+
+    div {border: 1px solid $color-terciario;
+        width: 305px;
+        height: 390px;
+        text-align: center;
+        margin-top: 50px;}
+
+    div img{width: 280px;
+        height: 250px;}
+
+    div a{text-decoration: none;
+        color: $color-secundario;
+        background-color: $color-principal;
+        padding: 15px;
+        font-size: 20px;}
+
+    div p{font-size: 30px;
+        margin-bottom: 25px;}
+    }
+
+.cosas-titulo{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    }

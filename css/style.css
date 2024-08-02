@@ -9,14 +9,17 @@
 
 body{ font-family: "Josefin Sans", sans-serif; }
 
-/*-----HEADER-----*/
-
 
 .menu {background-color: olivedrab !important;} 
 
 .nav-item {font-size: 20px;
     display: flex;
     text-align: center;}
+
+
+/*-----HEADER-----*/
+
+
 
 header {background-color: olivedrab;}
 
@@ -46,7 +49,7 @@ header h1
     {width: 100%;
     height: calc(100vh - 80px);
     text-align: center;
-    background-image: url(../img/alcaraz\ 2.webp);
+    background-image: url(../img/alcaraz.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,0 +1,54 @@
+.hero{
+    width: 100%;
+    height: calc(100vh - 80px);
+    text-align: center;
+    background-image: url(../img/alcaraz.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+
+    @include flex (flex,center,end);
+
+
+    h2{color: $color-secundario;
+        font-size: 35px;}
+
+    p{color: $color-secundario;
+        font-size: 15px;}
+    }
+
+.ofertas-destacados{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+
+.destacados .ofertas-destacados{
+    div{border: 1px solid $color-terciario;
+        width: 305px;
+        height: 370px;
+        text-align: center;
+        margin-bottom: 20px;} 
+    }
+
+.destacados{
+    div img{width: 280px;
+            height: 250px;}
+
+    h3{font-size: 35px;
+        margin-bottom: 25px;
+        padding: 50px;}
+
+    div p{font-size: 30px;
+        margin-bottom: 25px;}
+
+    div a{text-decoration: none;
+        color: $color-secundario;
+        background-color: $color-principal;
+        padding: 15px;
+        font-size: 20px;}
+    }
+

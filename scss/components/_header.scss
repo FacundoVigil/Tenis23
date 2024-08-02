@@ -1,0 +1,16 @@
+header{
+    background-color: $color-principal;
+
+    h1{color: white;
+        font-size: 50px;
+        padding-left: 15px;
+        padding-top: 10px;}
+
+    nav img{ width: 80px;
+        height: 80px;}    
+    }
+    
+    .boton {border: 1px solid $color-terciario;
+        border-radius: 5px;}
+    
+    .boton:hover {background-color: whitesmoke;} 

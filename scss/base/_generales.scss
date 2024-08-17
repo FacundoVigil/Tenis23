@@ -30,3 +30,15 @@ $color-terciario :black;
     justify-content: $justify;
     align-items: $aling;
 }
+
+//! KEYFRAMES 
+
+@keyframes desplazamiento {
+    0%{ 
+        left: 150%;
+    }
+    100%{
+        left: -100%;
+    }
+
+}
